@@ -1,0 +1,20 @@
+@import '../utils/variables';
+@import '../utils/mixins';
+
+.container {
+  @include formulario
+}
+
+.boton2 {
+    position: relative;
+    margin-left: 120px;
+    margin-top: 20px;
+    @include btn
+}
+
+.nombre {
+    padding: 0 10px;
+    border: 2px solid black;
+    position: relative;
+    margin-left: 55px;
+}

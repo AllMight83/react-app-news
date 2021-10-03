@@ -1,0 +1,39 @@
+@import '../utils/variables';
+
+.navs {
+    margin-right: auto;
+}
+
+ul {
+    font-size: 30px;
+    list-style: none;
+    display: flex;
+    position: absolute;
+    margin-left: 522px;
+}
+
+li {
+    margin-left: 30px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: $letter-color;
+    
+    &:hover::after {
+        content: '';
+        height: 1px;
+        background: $letter-color;
+        display:block;
+        
+    }
+    // &:hover {
+    //     transition: all .5s ease;
+    //     text-decoration: underline;
+    //     margin-bottom: 2px;
+        
+    // }
+}

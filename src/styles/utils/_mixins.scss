@@ -1,0 +1,22 @@
+@mixin formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 785px;
+    margin-top: 209px;
+}
+
+
+@mixin  inputs {
+    padding: 0 10px;
+    border: 2px solid black;
+}
+
+@mixin  btn {
+
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: $letter-color;
+}

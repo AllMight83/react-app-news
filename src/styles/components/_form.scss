@@ -1,0 +1,51 @@
+@import '../utils/variables';
+@import '../utils/mixins';
+
+
+.container {
+   @include formulario
+}
+
+.label {
+    position: relative;
+    left: 83px;
+}
+
+.label2 {
+    position: relative;
+    left: 67px;
+    bottom: 170px;
+}
+
+.label3 {
+    position: relative;
+    left: 94px;
+}
+
+.one {
+    margin-left: -28px;
+    @include inputs
+}
+
+.two {
+    margin-top: 35px;
+    margin-left: -69px;
+    @include inputs
+}
+
+.three {
+    margin-left: -5px;
+    @include inputs
+}
+
+.btnn {
+    position: relative;
+    top: 25px;
+    left: 85px;
+    @include btn
+}
+
+.titlenew {
+    position: relative;
+    right: 10px;
+}
